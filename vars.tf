@@ -53,9 +53,6 @@ variable "Private_Intra_AZ2" {
 variable "amazonlinux" {
   default = ""
 }
-variable "centos7" {
-  default = ""
-}
 variable "ubuntu" {
   default = ""
 }
