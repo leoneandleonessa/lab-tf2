@@ -53,9 +53,6 @@ variable "Private_Intra_AZ2" {
 variable "amazonlinux" {
   default = ""
 }
-variable "ubuntu" {
-  default = ""
-}
 
 variable "gateway" {
   type = map(any)

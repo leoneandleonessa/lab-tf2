@@ -1,0 +1,3 @@
+- uses: terraform-linters/setup-tflint@v3
+  with:
+    tflint_version: latest
