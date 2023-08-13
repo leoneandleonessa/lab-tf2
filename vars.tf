@@ -1,10 +1,10 @@
 variable "aws_region" {
   description = "AWS Region"
-  default     = "ap-southeast-1"
+  default     = "ap-southeast-3"
 }
 
 variable "region" {
-  default = "ap-southeast-1"
+  default = "ap-southeast-3"
 }
 
 variable "access" {
@@ -16,7 +16,7 @@ variable "secret" {
 
 // Tag
 variable "birthday" {
-  default = "10-08-2023"
+  default = "13-08-2023"
 }
 variable "environment" {
   default = "dev"
@@ -25,7 +25,7 @@ variable "Backup" {
   default = "BackupDaily"
 }
 variable "project" {
-  default = "labtf" #CHANGE
+  default = "lab" #CHANGE
 }
 
 variable "cidr" {
@@ -73,14 +73,6 @@ variable "mongodb" {
     "ssh"     = 22
   }
 }
-
-#variable "remote_state_bucket" {
-#  default = "" #BUCKET NAME
-#}
-#
-#variable "remote_state_key" {
-#  default = "" # FOLDER/name.tfstate
-#}
 
 
 locals {
