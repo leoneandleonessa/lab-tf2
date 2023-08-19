@@ -16,7 +16,7 @@ variable "secret" {
 
 // Tag
 variable "birthday" {
-  default = "13-08-2023"
+  default = "20-08-2023"
 }
 variable "environment" {
   default = "development-macbook"
