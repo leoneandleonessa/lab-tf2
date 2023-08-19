@@ -19,7 +19,7 @@ variable "birthday" {
   default = "13-08-2023"
 }
 variable "environment" {
-  default = "development-macbook"
+  default = "development-macbook-air-m1"
 }
 variable "Backup" {
   default = "BackupDaily"
