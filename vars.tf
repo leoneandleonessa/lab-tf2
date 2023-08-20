@@ -25,7 +25,7 @@ variable "Backup" {
   default = "BackupDaily"
 }
 variable "project" {
-  default = "macbook" #CHANGE
+  default = "macbookair" #CHANGE
 }
 
 variable "cidr" {
